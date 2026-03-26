@@ -13,15 +13,15 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Yonghang Chen"
+    name: "Your Name"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: "Zhejiang University"
+    organization: ""
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "PhD Student | Robotics | VLM & Spatial Intelligence"
+    tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Yonghang Chen - PhD Student in Robotics at Zhejiang University. Research on Vision Language Models, Spatial Intelligence, and Vision Language Action."
+    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)
@@ -148,7 +148,7 @@ hugoblox:
         - /
       disallow: []
       note: "Guidance for AI crawlers - customize to match your public content."
-      contact: "12525052@zju.edu.cn"  # Contact info for AI crawler inquiries (e.g., email or URL)
+      contact: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
@@ -179,26 +179,30 @@ hugoblox:
     # Quick action shortcuts in search modal
     quick_actions: []
 
+  # ────────────────────────────────────────────────────────────────────────────
   # COMMENTS
   # User comments system
+  # ────────────────────────────────────────────────────────────────────────────
   comments:
     enable: false
-    provider: "giscus"                        # giscus | disqus
+    provider: ""                        # giscus | disqus
     giscus:
-      repo: "repo_owner/repo_name"                # GitHub repo for storing comments (e.g., username/repo)
+      repo: ""
       repo_id: ""
       category: ""
       category_id: ""
     disqus:
       shortname: ""
 
+  # ────────────────────────────────────────────────────────────────────────────
   # ANALYTICS
   # Traffic and behavior analytics
+  # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
-      measurement_id: "G-XXXXXXXXXX"                # Google Analytics 4: G-XXXXXXXXXX
+      measurement_id: ""                # Google Analytics 4: G-XXXXXXXXXX
     google_tag_manager:
-      container_id: "GTM-XXXXXXX"                  # GTM-XXXXXXX
+      container_id: ""                  # GTM-XXXXXXX
     plausible:
       domain: ""
     fathom:
