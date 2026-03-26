@@ -24,7 +24,7 @@ hugoblox:
     description: "Yonghang Chen - PhD Student in Robotics at Zhejiang University. Research on Vision Language Models, Spatial Intelligence, and Vision Language Action."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: ""              # Twitter/X handle for Twitter Cards (without @)
+      twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -179,10 +179,8 @@ hugoblox:
     # Quick action shortcuts in search modal
     quick_actions: []
 
-  # ────────────────────────────────────────────────────────────────────────────
   # COMMENTS
   # User comments system
-  # ────────────────────────────────────────────────────────────────────────────
   comments:
     enable: false
     provider: ""                        # giscus | disqus
@@ -194,10 +192,8 @@ hugoblox:
     disqus:
       shortname: ""
 
-  # ────────────────────────────────────────────────────────────────────────────
   # ANALYTICS
   # Traffic and behavior analytics
-  # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
       measurement_id: ""                # Google Analytics 4: G-XXXXXXXXXX

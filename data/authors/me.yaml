@@ -50,7 +50,7 @@ education:
 experience:
   - role: PhD Student
     org: Zhejiang University
-    start: 2022-09-01
+    start: 2025-09-01
     summary: |
       Research on robotic systems using Vision Language Models and Spatial Intelligence.
 
@@ -73,19 +73,5 @@ skills:
         level: 4
       - label: VLA (Vision Language Action)
         level: 4
-        level: 4
 
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+awards: []
