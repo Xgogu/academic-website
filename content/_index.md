@@ -39,14 +39,14 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🤖 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a PhD student in Robotics at Zhejiang University, focusing on Vision Language Models (VLM), Spatial Intelligence, and Vision Language Action (VLA) for robotic systems.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My research aims to bridge the gap between vision, language, and robotic action, enabling robots to better understand and interact with the physical world.
 
-        Please reach out to collaborate 😃
+        Interested in collaborating or discussing research? Feel free to reach out! 😊
     design:
       columns: '1'
   - block: collection

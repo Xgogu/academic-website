@@ -148,7 +148,7 @@ hugoblox:
         - /
       disallow: []
       note: "Guidance for AI crawlers - customize to match your public content."
-      contact: ""
+      contact: "12525052@zju.edu.cn"  # Contact info for AI crawler inquiries (e.g., email or URL)
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
@@ -183,9 +183,9 @@ hugoblox:
   # User comments system
   comments:
     enable: false
-    provider: ""                        # giscus | disqus
+    provider: "giscus"                        # giscus | disqus
     giscus:
-      repo: ""
+      repo: "repo_owner/repo_name"                # GitHub repo for storing comments (e.g., username/repo)
       repo_id: ""
       category: ""
       category_id: ""
@@ -196,9 +196,9 @@ hugoblox:
   # Traffic and behavior analytics
   analytics:
     google:
-      measurement_id: ""                # Google Analytics 4: G-XXXXXXXXXX
+      measurement_id: "G-XXXXXXXXXX"                # Google Analytics 4: G-XXXXXXXXXX
     google_tag_manager:
-      container_id: ""                  # GTM-XXXXXXX
+      container_id: "GTM-XXXXXXX"                  # GTM-XXXXXXX
     plausible:
       domain: ""
     fathom:
